@@ -29,11 +29,23 @@ app.get('/info1', function (req, res) {
   res.render('info1')
   });
 
-app.get('/elements', function (req, res) {
-  res.render('elements')
+app.get('/info2', function (req, res) {
+  res.render('info2')
   });
 
- 
+app.get('/info3', function (req, res) {
+  res.render('info3')
+  });
+
+app.get('/info4', function (req, res) {
+  res.render('info4')
+  });
+
+  
+app.get('/info5', function (req, res) {
+  res.render('info5')
+  });
+
 app.listen(port, () => {
 
     console.log(`Escuchando el servidor en el puerto http://localhost:${port}`);
