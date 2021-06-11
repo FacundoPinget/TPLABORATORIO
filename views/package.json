@@ -1,0 +1,19 @@
+{
+  "name": "tp2",
+  "version": "1.0.0",
+  "description": "TUP",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "nodemon":"nodemon --match server.js",
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "Facundo Pinget",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.7"
+  }
+}
